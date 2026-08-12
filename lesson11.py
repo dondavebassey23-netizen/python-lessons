@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-# print("Hello World!")
 
 sentence = "latte and espresso"
 words = sentence.split(" and ")
@@ -14,7 +12,6 @@ print(new_sentence2)
 sentence3 = "espresso with milk and caramel and chocolate"
 new_sentence3 = sentence2.rsplit(" and ", 1) # 1 is  The maxsplit parameter defines the maximum number of splits to perform on a string.
 print(new_sentence3)
-=======
 # String manipulation
 # order.strip() removes the white spaces from both ends
 # order.upper() convert all letters to upper case 
@@ -58,4 +55,3 @@ print(items)
 # 2. Join the List using a newline character (\n) as the separator
 menu_display = "\n".join(items)
 print(menu_display)
->>>>>>> 341ec26982516ed1036b1c93ff1a61f71a35ead1

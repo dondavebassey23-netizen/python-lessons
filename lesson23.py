@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Step 3: Dictionary Comprehensions
 # To generate a new dictionary in-place, you use curly braces { and } and define both a key expression and a value expression separated by a colon: {key_expr: value_expr for key, value in source_dict.items()}.
 
@@ -61,7 +60,6 @@ list_of_sizes = ["small", "Premium" "medium", "large", "extra_large"]
 new_sizes = ["Premium" if size == "large" else "Regular" for size in list_of_sizes]
 
 print(new_sizes)
-=======
 # LESSON 23.1: COMPREHENSIONS (LIST, DICT, SET)
 
 #Comprehension: A concise Python syntax that creates a new collection 
@@ -97,4 +95,3 @@ ordered_sizes = ["small", "large", "medium", "large", "small"]
 large_only = [size for size in ordered_sizes if size == "large"]
 
 print(large_only) # Output: ['large', 'large']
->>>>>>> 341ec26982516ed1036b1c93ff1a61f71a35ead1
